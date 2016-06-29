@@ -7,7 +7,7 @@
  
 namespace bariew\logAbstractModule\models;
 
-use bariew\abstractAbstractModule\models\AbstractModel;
+use bariew\abstractModule\models\AbstractModel;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\log\Logger;

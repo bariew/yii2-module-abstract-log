@@ -2,7 +2,7 @@
 
 namespace bariew\logAbstractModule\models;
 
-use bariew\abstractAbstractModule\models\AbstractModelExtender;
+use bariew\abstractModule\models\AbstractModelExtender;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
