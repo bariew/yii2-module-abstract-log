@@ -117,7 +117,7 @@ class Log extends AbstractModel
         $sender = $event->sender;
         /** @var \self $model */
         $model = new static(array_merge([
-            'user_id' => Yii::$app->user->id,
+            'user_id' => isset(Yii::$app->user->id) ? Yii::$app->user->id : null,
             'model_name' => get_class($sender),
             'model_id' => $sender->primaryKey,
             'event' => $event->name,
